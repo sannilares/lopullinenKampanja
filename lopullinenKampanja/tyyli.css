@@ -1,0 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+		h1 {
+			font-size: 20px;
+			font-style: italic;
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+
+		h2 {
+			font-size: 18px;
+			padding-top: 4px;
+			padding-bottom: 2px;
+		}
+
+
+		header {
+		text-align: center;
+		}
+
+		.headline {
+		width: 100%;
+		position: relative;
+		text-align: center;
+		}
+
+		.otsikko {
+		position: absolute;
+		bottom: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 60px;
+		font-family: 'Bellefair', serif;
+		}
+
+		.slogan {
+		position: absolute;
+		bottom: 50%;
+		left: 50%;
+		transform: translate(-50%, -30%);
+		font-size: 25px;
+		font-family: 'Bellefair', serif;
+		}
+
+		nav {
+		display: block;
+		padding: 15px;
+		background-color: #ddc0a1;
+		text-align:center;
+		}
+
+		a {
+		display: inline;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-family: 'Bellefair', serif;
+		}
+
+		.normal_link:hover {
+		background-color: #d0a77c;
+		}
+
+		.thispage {
+		background-color: #c3c388;
+		}
+
+
+
+		.tausta {
+			width: 65%;
+			border: 5px solid #b8b894;
+			padding: 24px;
+			padding-top: 4px;
+			margin: 24px;
+			border-radius:30px;
+		}
+
+		.appiTausta {
+			width: 35%;
+			border: 5px solid #b8b894;
+			padding: 24px;
+			padding-top: 4px;
+			margin: 24px;
+			border-radius:30px;
+			font-family: inherit;
+			background-color: white;
+		}
+
+		.karusellikuva {
+			width: 100%;
+			padding-top: 4px;
+		}
+
+
+
+
+		.sidebyside {float: left;}
+		.sidebyside .half {width: 42%; float: left;}
+
+		.half {
+		border: 5px solid #b8b894;
+		padding: 24px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		margin: 20px;
+		border-radius:30px;
+		font-family: 'Bellefair', serif;
+		}
+
+		img {
+		padding-top: 4px;
+		}
+
+		.vasen_kuva {
+			float: left;
+			clear: left;
+			max-width: 40%;
+			padding-top: 24px;
+			padding-right: 8px;
+		}
+
+		.oikea_kuva {
+			float: right;
+			margin-top: 24px;
+			margin-right: 34px;
+
+		}
+
+		.side {
+		float: right;
+		padding-top: 4px;
+		padding-bottom: 4px;
+		}
+
+		.etusivu_tausta {
+			width: 65%;
+			border: 5px solid #b8b894;
+			padding: 24px;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			margin: 24px;
+			border-radius:30px;
+			font-family: 'Bellefair', serif;
+		}
+
+		.elokuva {
+			width: 70%;
+			padding: 24px;
+			padding-top: 4px;
+			padding-bottom: 4px;
+		}
+
+		.lataus{
+			color: white;
+			font-family: 'Bellefair', serif;
+  		text-align: center;
+			display: block;
+			padding: 15px;
+			background-color: #ddc0a1;
+			text-align:center;
+
+		}
+
+		.etusivu_tausta2 {
+			width: 92%;
+			max-height: 30%;
+			border: 5px solid #b8b894;
+			padding: 24px;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			margin: 24px;
+			border-radius:30px;
+			font-family: 'Bellefair', serif;
+		}
+
+		.tausta_oikee {
+			width: 28%;
+			border: 5px solid #b8b894;
+			padding: 24px;
+			padding-top: 4px;
+			margin: 24px;
+			border-radius:30px;
+			float: left;
+			font-family: 'Bellefair', serif;
+		}
+
+		.rollaus{
+			overflow: auto;
+			height: 50%;
+			height: 331px;
+			display: block;
+			padding-right: 4px;
+		}
+
+		.rollaus_news {
+			overflow: auto;
+			height: 130px;
+			display: block;
+			padding-right: 4px;
+		}
+
+		.rollaus_news2 {
+			overflow: auto;
+			height: 450px;
+			display: block;
+			padding-right: 4px;
+		}
+
+
+
+		textarea, select {
+		    width: 100%;
+		    border: 1px solid #f2d88e;
+		    border-radius: 8px;
+		    box-sizing: border-box;
+				padding: 14px 30px;
+		    margin: 12px 0;
+				font-family: 'Bellefair', serif;
+		}
+
+		input[type=submit] {
+		    width: 100%;
+		    background-color: #ffe69e;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+				color: white;
+				padding: 14px;
+				margin: 12px 0;
+				font-family: 'Bellefair', serif;
+		}
+
+		input[type=submit]:hover {
+		    background-color: #f2d88e;
+				font-family: 'Bellefair', serif;
+		}
+
+		form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+		width: 61%;
+		margin: 24px;
+		font-family: 'Bellefair', serif;
+		}
+
+		.kuva_ilman_ääriviivoja {
+			padding-left: 24px;
+		}
+
+
+		footer {
+		text-align: center;
+		font-size: 14px;
+		color: white;
+		background-color: #55552b;
+		max-height: 265px;
+		clear: both;
+		font-family: 'Bellefair', serif;
+		}
