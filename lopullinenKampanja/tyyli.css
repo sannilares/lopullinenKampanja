@@ -180,9 +180,9 @@ table {
 		}
 
 		.side {
-		float: right;
-		padding-top: 4px;
-		padding-bottom: 4px;
+			float: right;
+			padding-top: 4px;
+			padding-bottom: 4px;
 		}
 
 		.etusivu_tausta {
@@ -196,9 +196,21 @@ table {
 			font-family: 'Bellefair', serif;
 		}
 
-		.elokuva {
-			width: 70%;
+		.info_tausta {
+			border: 5px solid #b8b894;
 			padding: 24px;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			margin: 20px;
+			margin-left: 38%;
+			border-radius:30px;
+			width: 55%;
+			font-family: 'Bellefair', serif;
+		}
+
+		.elokuva {
+			width: 86%;
+			padding: 6%;
 			padding-top: 4px;
 			padding-bottom: 4px;
 		}
@@ -215,15 +227,25 @@ table {
 		}
 
 		.etusivu_tausta2 {
-			width: 92%;
+			width: 82%;
 			max-height: 30%;
 			border: 5px solid #b8b894;
 			padding: 24px;
 			padding-top: 4px;
-			padding-bottom: 4px;
-			margin: 24px;
+			padding-bottom: 8px;
+			margin: 6%;
+			margin-top: 24px;
+			margin-bottom: 24px;
 			border-radius:30px;
 			font-family: 'Bellefair', serif;
+			font-size: 18px;
+			letter-spacing: 0.4px;
+
+		}
+
+		.infosivu {
+			display: block;
+			margin-left: 30ex;
 		}
 
 		.tausta_oikee {
@@ -250,6 +272,8 @@ table {
 			height: 130px;
 			display: block;
 			padding-right: 4px;
+			font-size: 18px;
+			letter-spacing: 0.4px;
 		}
 
 		.rollaus_news2 {
@@ -257,9 +281,27 @@ table {
 			height: 450px;
 			display: block;
 			padding-right: 4px;
+			font-size: 18px;
+			letter-spacing: 0.4px;
 		}
 
+		.rollaus_news3 {
+			overflow: auto;
+			height: 250px;
+			display: block;
+			padding-right: 4px;
+			font-size: 18px;
+			letter-spacing: 0.4px;
+		}
 
+		.rollaus_news4 {
+			overflow: auto;
+			height: 350px;
+			display: block;
+			padding-right: 4px;
+			font-size: 18px;
+			letter-spacing: 0.4px;
+		}
 
 		textarea, select {
 		    width: 100%;
