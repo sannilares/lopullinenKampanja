@@ -56,6 +56,7 @@ table {
 			font-style: italic;
 			padding-bottom: 20px;
 			padding-top: 20px;
+			letter-spacing: 0.4px;
 		}
 
 		h2 {
@@ -81,6 +82,7 @@ table {
 		left: 50%;
 		transform: translate(-50%, -50%);
 		font-size: 60px;
+		letter-spacing: 0.4px;
 		font-family: 'Bellefair', serif;
 		}
 
@@ -90,6 +92,7 @@ table {
 		left: 50%;
 		transform: translate(-50%, -30%);
 		font-size: 25px;
+		letter-spacing: 0.4px;
 		font-family: 'Bellefair', serif;
 		}
 
@@ -106,6 +109,8 @@ table {
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
+		font-size: 16px;
+		letter-spacing: 0.4px;
 		font-family: 'Bellefair', serif;
 		}
 
@@ -287,7 +292,7 @@ table {
 
 		.rollaus_news3 {
 			overflow: auto;
-			height: 250px;
+			height: 300px;
 			display: block;
 			padding-right: 4px;
 			font-size: 18px;
@@ -302,6 +307,7 @@ table {
 			font-size: 18px;
 			letter-spacing: 0.4px;
 		}
+
 
 		textarea, select {
 		    width: 100%;
